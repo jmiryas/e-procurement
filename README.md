@@ -1,8 +1,8 @@
-## e-Procurement
+# e-Procurement
 
 API e-Procurement sederhana untuk mengelola proses pengadaan barang dan jasa. API ini dibuat menggunakan Laravel dan menggunakan Laravel Sanctum untuk autentikasi tokennya.
 
-# Endpoint
+## Endpoint
 
 Berikut adalah endpoint dari API ini:
 
@@ -17,7 +17,7 @@ Berikut adalah endpoint dari API ini:
 | 7   | PATCH  | `/api/v1/products/{id}`    | Memperbarui produk user login berdasarkan ID                    |
 | 8   | DELETE | `/api/v1/products/{id}`    | Menghapus produk user login berdasarkan ID                      |
 
-# Log
+## Log
 
 Secara otomatis, setiap request dan response yang ada di API ini akan disimpan pada folder `storage/logs/api`. Berikut adalah sample log request dan response nya:
 
