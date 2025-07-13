@@ -21,7 +21,7 @@ Berikut adalah endpoint dari API ini:
 
 Secara otomatis, setiap request dan response yang ada di API ini akan disimpan pada folder `storage/logs/api`. Berikut adalah sample log request dan response nya:
 
-```php
+```log
 [2025-07-13 15:30:43] [REQUEST] {
     "method": "GET",
     "url": "http://127.0.0.1:8000/api/v1/products",
